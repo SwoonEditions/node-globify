@@ -1,6 +1,6 @@
 ### node-globify
 
-Tool made out offrustration about most of the `browserify` transforms not working properly, and not traversing dependencies in order to remove all `require` keywords.
+Tool made out of frustration about most of the `browserify` transforms not working properly, and not traversing dependencies in order to remove all `require` keywords.
 
 CLI usage exaple: 
 
