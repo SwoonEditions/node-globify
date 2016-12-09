@@ -10,12 +10,12 @@ This will make all modules aliased by right hand side global window variable, so
 
 CommonJS usage example:
 
-```javascript
+```
 import 'globify';
 
 globify('/src/main.js', '/dist/main.js, [ 'react:React', 'rxjs:Rx' ]);
 
-// Optionally, you can use it as a promise with the output
+// or further action
 
 globify('/src/main.js', '/dist/main.js, [ 'react:React', 'rxjs:Rx' ])
   .then(output => /* do something other with output */ );
