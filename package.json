@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Globlifies modules",
   "main": "index.js",
+  "bin" : "./globify.js",
   "scripts": {
     "test": "node_modules/.bin/tape tests/static.js"
   },
