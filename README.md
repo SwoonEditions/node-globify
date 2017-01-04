@@ -11,7 +11,7 @@ This will make all modules aliased by right hand side global window variable, so
 CommonJS usage example:
 
 ```
-import 'globify';
+// import 'globify'
 
 globify('/src/main.js', '/dist/main.js, [ 'react:React', 'rxjs:Rx' ]);
 
